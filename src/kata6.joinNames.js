@@ -1,3 +1,5 @@
-const joinNames = (namesObj) => {};
+const joinNames = (namesObj) => {
+
+};
 
 module.exports = joinNames;
