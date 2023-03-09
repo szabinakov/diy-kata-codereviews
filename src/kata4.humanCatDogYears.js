@@ -8,8 +8,8 @@ const humanCatDogYears = (years) => {
         catYears = 24;
         dogYears = 24;
     } else {
-        catYears = 24 + 4 * (years -2);
-        dogYears = 24 + 5 * (years -2); 
+        catYears = 24 + 4 * (years - 2);
+        dogYears = 24 + 5 * (years - 2);
     };
     return [years, catYears, dogYears];
 };
