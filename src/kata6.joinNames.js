@@ -4,8 +4,8 @@ if (arrayOfNames.length > 1) {
 const finalName = arrayOfNames[arrayOfNames.length-1];
 const removeFinalName = arrayOfNames.splice(arrayOfNames.length-1);
 const stringOfNames = arrayOfNames.join(', ');
-return `${stringOfNames} & ${finalName}`
-} else {return arrayOfNames.toString()
+return `${stringOfNames} & ${finalName}`;
+} else {return arrayOfNames.toString();
 };
 };
 
