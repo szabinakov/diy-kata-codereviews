@@ -2,6 +2,9 @@ const { getEmployerRole } = require("../src");
 
 describe("getEmployerRole", () => {
   const employees = [
+    { name: "Satti", role: "Developer" },
+    { name: "Jenny", role: "Sales Associate" },
+    { name: "Javid", role: "Human Recommended Reading Assistant" },
     { name: "Asif", role: "Electrical Engineer" },
     { name: "Adeel", role: "Mechanical Engineer" },
     { name: "Liam", role: "BIM Technician" },
@@ -10,6 +13,6 @@ describe("getEmployerRole", () => {
     expect(getEmployerRole("Asif", employees)).toBe(
       "Electrical Engineer"
     );
-    expect(getEmployerRole("Liam", employees)).toBe("BIM Technician");
+    expect(getEmployerRole("Satti", employees)).toBe("Developer");
   });
 });
